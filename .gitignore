@@ -1,0 +1,32 @@
+# Python
+__pycache__/
+*.py[cod]
+.venv/
+venv/
+.env
+
+# IDE / sistema
+.vscode/
+.idea/
+desktop.ini
+Thumbs.db
+.DS_Store
+
+# Logs e saídas diárias do motor (gerados ao rodar)
+*.log
+lara/arquivo_ABC/
+lara/ZIP_DIA/
+lara/comparativos_volatilidade*/
+lara/config_lara_BACKUP*.json
+lara/dias_treino_selecionados*.csv
+
+# Modelos candidatos gerados pelo retreino (o modelo em uso é versionado)
+lara/modelos/**/*CANDIDATO*
+
+# Saídas grandes dos backtests (os resumos ficam versionados)
+*.zip
+reports/backtest/**/operacoes*.csv
+reports/backtest/**/bloqueios*.csv
+reports/backtest/**/resumo_por_dia*.csv
+reports/backtest/**/ranking*.csv
+reports/backtest/**/diagnostico*.csv
