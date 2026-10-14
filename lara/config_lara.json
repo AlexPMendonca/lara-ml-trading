@@ -1,5 +1,5 @@
 {
-  "symbol": "WINM26",
+  "symbol": "WINZ26",
   "simulacao": true,
   "enviar_ordem_teste_no_inicio": false,
   "usar_filtro_tendencia": false,
@@ -24,7 +24,7 @@
   },
   "version_tag": "Lara_4.0_CHALLENGER02_PC070_PV060_LOSSCD3_NOOPEN30_D8_2026-05-08_LOGAUDIT",
   "usar_modelo_xgb": true,
-  "caminho_modelo": "modelos/modelo_lara4/modelo_lara4_xgb_jan2026_shadow_pv058_SIMPLIFICADO_V1.json",
+  "caminho_modelo": "modelos/modelo_lara4/modelo_lara4_xgb_jan2026_shadow_pv058_SIMPLIFICADO_V1.json",  
   "modelo_max_idade_dias": 100,
   "qualidade_minima_auc": 0.52,
   "calibracao": "nenhuma",
